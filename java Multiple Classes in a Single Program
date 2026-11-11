@@ -1,0 +1,23 @@
+class Student {
+    void displayStudent() {
+        System.out.println("Student Name: ABC");
+        System.out.println("Roll Number: 101");
+    }
+}
+
+class Teacher {
+    void displayTeacher() {
+        System.out.println("Teacher Name: DCBA");
+        System.out.println("Subject: Java");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student s = new Student();
+        Teacher t = new Teacher();
+
+        s.displayStudent();
+        t.displayTeacher();
+    }
+}
